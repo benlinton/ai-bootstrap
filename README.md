@@ -1,38 +1,13 @@
 # AI Bootstrap
 
-Copy into to any project for a streamlined AI-based workflow.
+Copy `ai-bootstrap` into to any project for a streamlined AI-based workflow.  Modify per project.
 
-## Setup
-| Command | Description |
-|---------|-------------|
-| `/setup:create-prd` | Generate Product Requirements Document from conversation |
-| `/setup:init-project` | Install dependencies, start backend and frontend servers|
+- Document before you code. Your PRD.md becomes the source of truth for every AI conversation and each granular feature.
+- Use reference modules to load only what's relevant
+- If you don something more than a few times, make it a command
+- Rest context. Planning and execution should be separate conversations.
+  - Research, design, create planning doc. Capture all context.
+  - Clear converstaion with a fresh start
+  - Implement the next feature
 
-## Core Loop: Plan -> Implement -> Validate
-### 1) Plan
-| Command | Description |
-|---------|-------------|
-| `/plan:prime` | Load project context and codebase understanding |
-| `/plan:feature` | Create comprehensive implementation plan with codebase analysis |
-
-### 2) Implement
-| Command | Description |
-|---------|-------------|
-| `/implement:next-steps` | Execute an implementation plan step-by-step |
-
-### 3) Validate
-| Command | Description |
-|---------|-------------|
-| `/validate:run-tests` | Run full validation: tests, linting, coverage, frontend build |
-| `/validate:code-review` | Technical code review on changed files |
-| `/validate:code-review-fix` | Fix issues found in code review |
-| `/validate:execution-report` | Generate report after implementing a feature |
-| `/validate:system-review` | Analyze implementation vs plan for process improvements |
-
-## Release
-| Command | Description |
-|---------|-------------|
-| `/commit` | Create atomic commit with appropriate tag (feat, fix, docs, etc.) |
-| `/github:bug-fix-rca` | Create root cause analysis document for a GitHub issue |
-| `/github:bug-fix-implement-fix` | Implement fix based on RCA document |
-| `/github:draft-release` | Draft the next release |
+See [AI-COMMANDS.md](AI-COMMANDS.md)
