@@ -1,15 +1,14 @@
 # AI Bootstrap
 
-Add to any project to include commands for an AI-based workflow.
+Copy into to any project for a streamlined AI-based workflow.
 
-## Get Started
+## Setup
 | Command | Description |
 |---------|-------------|
-| `/init-project` | Install dependencies, start backend and frontend servers|
-| `/create-prd` | Generate Product Requirements Document from conversation |
+| `/setup:create-prd` | Generate Product Requirements Document from conversation |
+| `/setup:init-project` | Install dependencies, start backend and frontend servers|
 
-
-## Core Loop: `Plan -> Implement -> Validate`
+## Core Loop: Plan -> Implement -> Validate
 ### 1) Plan
 | Command | Description |
 |---------|-------------|
@@ -19,7 +18,7 @@ Add to any project to include commands for an AI-based workflow.
 ### 2) Implement
 | Command | Description |
 |---------|-------------|
-| `/implement:next-step` | Execute an implementation plan step-by-step |
+| `/implement:next-steps` | Execute an implementation plan step-by-step |
 
 ### 3) Validate
 | Command | Description |
@@ -30,10 +29,10 @@ Add to any project to include commands for an AI-based workflow.
 | `/validate:execution-report` | Generate report after implementing a feature |
 | `/validate:system-review` | Analyze implementation vs plan for process improvements |
 
-### 4) Release
+## Release
 | Command | Description |
 |---------|-------------|
 | `/commit` | Create atomic commit with appropriate tag (feat, fix, docs, etc.) |
-| `/github:bug_fix:rca` | Create root cause analysis document for a GitHub issue |
-| `/github:bug_fix:implement-fix` | Implement fix based on RCA document |
+| `/github:bug-fix-rca` | Create root cause analysis document for a GitHub issue |
+| `/github:bug-fix-implement-fix` | Implement fix based on RCA document |
 | `/github:draft-release` | Draft the next release |
