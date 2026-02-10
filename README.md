@@ -43,7 +43,7 @@ To avoid context window degradation **reset context** between each step in the c
 Planning and implementation are **separate** conversations.  
 Planning should result in a planned feature document, like so:
 
-    Plan -> [Planning Doc] -> Reset Context -> Implement
+    Plan → [Planning Doc] → Reset Context → Implement
 
 For example,
 

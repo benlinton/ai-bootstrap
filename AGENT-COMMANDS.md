@@ -7,7 +7,7 @@
 | `/setup:create-module-reference` | Generate one file per module so we can split context and load only what's relevant |
 | `/setup:init-project` | Install dependencies, start backend and frontend servers|
 
-## Core Loop: Plan -> Implement -> Validate
+## Core Loop: Plan → Implement → Validate
 | Command | Description |
 |---------|-------------|
 | `/plan:prime` | Load project context and codebase understanding |
