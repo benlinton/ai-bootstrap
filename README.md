@@ -48,9 +48,11 @@ Planning should result in a planned feature document, like so:
 For example,
 
     .agents/
-    ├── plans/
-    │   ├── feature-users.md        # desired current state for users; evolves over time
-    │   └── feature-dashboard.md    # desired current state for dashboard; evolves over time 
+    ├── plan/
+    │   └── features/
+    │       ├── feature-YYYY-MM-secure_password.md    # one-off change
+    |       ├── feature-users.md                      # desired state for users; evolves over time
+    │       └── feature-dashboard.md                  # desired state for dashboard; evolves over time 
     └ ...
 
 
