@@ -75,3 +75,14 @@ For example,
 | AI doesn't understand auth flow | New context reference doc: auth_architecture.md |
 
 Every time you develop a new feature, your coding agent should become smarter.
+
+### Use high-value context engineering
+Conversations with an agent can include:
+- Goals
+- Success criteria
+- What not to do
+- Documentation to reference
+- Task list
+- Validation strategy
+- Desired codebase structure
+
