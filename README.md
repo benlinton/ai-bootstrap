@@ -2,18 +2,19 @@
 Copy `ai-bootstrap` into to any project for a streamlined AI-based workflow.  Heavily modify per project.
 
 
-## Agent Command Cheatsheet
-See [AGENT-COMMANDS.md](AGENT-COMMANDS.md)
+## Agent commands
+See the [AGENT-COMMANDS.md](AGENT-COMMANDS.md) cheatsheet.
 
 
-## Key Concepts
-### PRD-First Development
+## Key concepts
+### Prioritize PRD-first development
 Create documentation before you code. Your `.agents/PRD.md` becomes the source of truth for every AI 
-conversation and for each granular feature. Without it AI makes assumptions and is likely to context drift. So for:
+conversation and for each granular feature. Without it AI can make bad assumptions and will context drift. 
+So for:
 - New projects:  Full PRD with features broken down into phases
 - Brownfield:  Document existing codebase, define modules, and what comes next
 
-### Modular rules context architecture
+### Build a modular rules architecture
 Stop dumping everything in one massive file for your AI agent rules. 
 Split by concern and only load what's relevant on-demand so context remains lean.
 Aggressively limit the size and scope of global rules.
@@ -27,11 +28,12 @@ For example, create:
     │   └── deploy.md       # deployment best practices
     └── AGENTS.md           # global AI agent rules
 
-The `.agents/GLOBAL.md` file mentions each reference material for the AI agent to discover. 
-And when working on a given module you should ensure the AI agent loads only reference documentation 
-that is necessary for the current task at hand.  Limit context as much as possible.
+The `.agents/GLOBAL_RULES.md` file mentions each reference material for the AI agent to discover. 
+And when working on a given module ensure the AI agent loads only necessary reference documentation 
+for the current task at hand.  Limit context bloat as much as possible.
 
-### Build features in cycles
+### Add bite-size features in cycles
+AI performs at its best when given small tasks, one at a time.
 To avoid context window degradation **reset context** between each step in the cycle.
 
 - Step 1) Plan
@@ -43,7 +45,7 @@ Planning should result in a planned feature document, like so:
 
     Plan -> [Planning Doc] -> Reset Context -> Implement
 
-As an example,
+For example,
 
     .agents/
     ├── plans/
@@ -54,14 +56,14 @@ As an example,
 
 
 ### Start planning with the `prime` command
-Start each planning session with the `prime` command to load up repeatable, predictable context every time.
+Start each planning session with the `prime` command to load repeatable, predictable context every time.
 
 
-### System evolution mindset
+### Adopt an evolution mindset
 If you do something more than a few times, create a new command. 
-Over time your agent commands and references should become specific to each project.
+Over time your agent commands and reference documentation should become specific to each project.
 In addition, treat every bug as an opportunity to evolve your AI coding system. 
-You can fix:
+For each bug you can also fix:
 - Global rules
 - On demand context and references
 - Commands & workflows
@@ -73,4 +75,4 @@ For example,
 | AI forgets to run tests | Update structured plan to include section for tests to always run |
 | AI doesn't understand auth flow | New context reference doc: auth_architecture.md |
 
-Every time you develop a new feature, your coding agent should get smarter.
+Every time you develop a new feature, your coding agent should become smarter.
