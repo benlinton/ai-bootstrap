@@ -26,9 +26,9 @@ For example, create:
     │   ├── components.md   # frontend best practices
     │   ├── api.md          # backend best practices
     │   └── deploy.md       # deployment best practices
-    └── GLOBAL-RULES.md     # global rules for AI agents
+    └── GLOBAL-CONTEXT.md   # global context and rules for AI agents
 
-The `.agents/GLOBAL-RULES.md` file mentions each reference material for the AI agent to discover. 
+The `.agents/GLOBAL-CONTEXT.md` file mentions each reference material for the AI agent to discover. 
 And when working on a given module ensure the AI agent loads only necessary reference documentation 
 for the current task at hand.  Limit context bloat as much as possible.
 

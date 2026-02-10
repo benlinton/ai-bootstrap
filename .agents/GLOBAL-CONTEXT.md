@@ -1,4 +1,4 @@
-# Global AI Agent Rules
+# Global context and rules for AI Agents 
 
 > Always aggressively limit size and scope of global rules.
 

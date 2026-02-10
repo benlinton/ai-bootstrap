@@ -16,7 +16,7 @@ argument-hint: [feature-id]
 
 ### 2. Understand our current workflow
 
-- Review global rules document `/.agents/GLOBAL-RULES.md` 
+- Review global rules document `/.agents/GLOBAL-CONTEXT.md` 
 - Review product requirement document `/.agents/PRD.md` 
 - Review any relevant reference documents `/.agents/reference/` 
 - Review used project AI agent commands `/.claude/commands/`
