@@ -5,7 +5,7 @@
 > Custom slash commands have been merged into skills. A file at `.claude/commands/review.md` and a skill at .`claude/skills/review/SKILL.md` both create `/review` and work the same way. Your existing `.claude/commands/` files keep working. Skills add optional features: a directory for supporting files, frontmatter to control whether you or Claude invokes them, and the ability for Claude to load them automatically when relevant.
 
 ### Setup
-Commands for setting up a project and it's docuementation.
+Setup a project and its documentation.
 
 | Command | Description |
 |---------|-------------|
@@ -13,8 +13,8 @@ Commands for setting up a project and it's docuementation.
 | `/setup:create-module-reference` | Generate one file per module so we can split context and load only what's relevant |
 | `/setup:init-project` | Install dependencies, start backend and frontend servers|
 
-### Core Loop Cycle 
-Commands for creating bite-sized features using the `Plan → Implement → Validate` development cycle.
+### Core Development Loop
+Create bite-sized features using the `Plan → Implement → Validate` development cycle.
 
 | Command | Description |
 |---------|-------------|
@@ -30,14 +30,14 @@ Commands for creating bite-sized features using the `Plan → Implement → Vali
 | `/validate:system-review` | Analyze implementation vs plan for process improvements |
 
 ### Evolve
-Improve our projects's process after each feature.
+Improve this project's process after each feature is completed.
 
 | Command | Description |
 |---------|-------------|
 | `/evolve:agent-workflow` | Evolve our project's agent workflow |
 
-### Release
-Fix, release, and deploy the code.
+### Commit
+Fix, release, and deploy the codebase.
 
 | Command | Description |
 |---------|-------------|
