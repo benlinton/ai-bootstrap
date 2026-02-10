@@ -28,3 +28,8 @@
 | `/github:bug-fix-rca` | Create root cause analysis document for a GitHub issue |
 | `/github:bug-fix-implement-fix` | Implement fix based on RCA document |
 | `/github:draft-release` | Draft the next release |
+
+## Evolve
+| Command | Description |
+|---------|-------------|
+| `/evolve:agent-workflow` | Evolve our project's agent workflow |
