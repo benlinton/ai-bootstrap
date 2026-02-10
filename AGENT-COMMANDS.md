@@ -1,4 +1,4 @@
-# AI Commands
+# Claude Code Commands
 
 ## Setup
 | Command | Description |
