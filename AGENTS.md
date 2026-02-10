@@ -31,12 +31,12 @@ Create bite-sized features using the `Plan → Implement → Validate` developme
 | `/validate:execution-report` | Generate report after implementing a feature |
 | `/validate:system-review` | Analyze implementation vs plan for process improvements |
 
-### Evolve
-Improve this project's process after each feature is completed.
+### Improve
+Evolve this project's process upon completing each feature.
 
 | Command | Description |
 |---------|-------------|
-| `/evolve:agent-workflow` | Evolve our project's agent workflow |
+| `/improve:agent-workflow` | Improve this project's agent workflow |
 
 ### Commit
 Fix, release, and deploy the codebase.
