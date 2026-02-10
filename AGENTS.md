@@ -23,7 +23,7 @@ Create bite-sized features using the `Plan → Implement → Validate` developme
 | `/plan:prime` | Load project context and codebase understanding |
 | `/plan:feature` | Create comprehensive implementation plan with codebase analysis |
 | &nbsp; | &nbsp; |
-| `/implement:next-steps` | Execute an implementation plan step-by-step |
+| `/implement:plan` | Execute an implementation plan step-by-step |
 | &nbsp; | &nbsp; |
 | `/validate:run-tests` | Run full validation: tests, linting, coverage, frontend build |
 | `/validate:code-review` | Technical code review on changed files |
