@@ -26,7 +26,7 @@ For example, create:
     │   ├── components.md   # frontend best practices
     │   ├── api.md          # backend best practices
     │   └── deploy.md       # deployment best practices
-    └── AGENTS.md           # global AI agent rules
+    └── GLOBAL-RULES.md     # global rules for AI agents
 
 The `.agents/GLOBAL-RULES.md` file mentions each reference material for the AI agent to discover. 
 And when working on a given module ensure the AI agent loads only necessary reference documentation 
