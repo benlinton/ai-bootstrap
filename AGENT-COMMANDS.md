@@ -21,6 +21,11 @@
 | `/validate:execution-report` | Generate report after implementing a feature |
 | `/validate:system-review` | Analyze implementation vs plan for process improvements |
 
+## Evolve
+| Command | Description |
+|---------|-------------|
+| `/evolve:agent-workflow` | Evolve our project's agent workflow |
+
 ## Release
 | Command | Description |
 |---------|-------------|
@@ -28,8 +33,3 @@
 | `/github:bug-fix-rca` | Create root cause analysis document for a GitHub issue |
 | `/github:bug-fix-implement-fix` | Implement fix based on RCA document |
 | `/github:draft-release` | Draft the next release |
-
-## Evolve
-| Command | Description |
-|---------|-------------|
-| `/evolve:agent-workflow` | Evolve our project's agent workflow |
