@@ -1,5 +1,5 @@
 # AI Bootstrap
-Copy `ai-bootstrap` into to any project for a streamlined AI-based workflow.  Heavily modify per project.
+Copy `ai-bootstrap/` into to any project for a streamlined AI-based workflow.  Heavily modify per project.
 
 
 ## Agent commands

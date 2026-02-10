@@ -8,20 +8,11 @@
 | `/setup:init-project` | Install dependencies, start backend and frontend servers|
 
 ## Core Loop: Plan -> Implement -> Validate
-### 1) Plan
 | Command | Description |
 |---------|-------------|
 | `/plan:prime` | Load project context and codebase understanding |
 | `/plan:feature` | Create comprehensive implementation plan with codebase analysis |
-
-### 2) Implement
-| Command | Description |
-|---------|-------------|
 | `/implement:next-steps` | Execute an implementation plan step-by-step |
-
-### 3) Validate
-| Command | Description |
-|---------|-------------|
 | `/validate:run-tests` | Run full validation: tests, linting, coverage, frontend build |
 | `/validate:code-review` | Technical code review on changed files |
 | `/validate:code-review-fix` | Fix issues found in code review |
