@@ -49,9 +49,8 @@ For example,
 
     .agents/
     ├── plans/
-    │   ├── feature-YYMM-add_users.md
-    │   ├── feature-YYMM-secure_passwords.md
-    │   └── feature-YYMM-dashboard.md
+    │   ├── feature-users.md        # desired current state for users; evolves over time
+    │   └── feature-dashboard.md    # desired current state for dashboard; evolves over time 
     └ ...
 
 
