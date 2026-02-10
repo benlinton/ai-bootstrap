@@ -1,13 +1,21 @@
-# Claude Code Commands
+# Agent Commands
 
-## Setup
+## Claude Code Commands
+
+> Custom slash commands have been merged into skills. A file at `.claude/commands/review.md` and a skill at .`claude/skills/review/SKILL.md` both create `/review` and work the same way. Your existing `.claude/commands/` files keep working. Skills add optional features: a directory for supporting files, frontmatter to control whether you or Claude invokes them, and the ability for Claude to load them automatically when relevant.
+
+### Setup
+Commands for setting up a project and it's docuementation.
+
 | Command | Description |
 |---------|-------------|
 | `/setup:create-prd` | Generate Product Requirements Document from conversation |
 | `/setup:create-module-reference` | Generate one file per module so we can split context and load only what's relevant |
 | `/setup:init-project` | Install dependencies, start backend and frontend servers|
 
-## Core Loop: Plan → Implement → Validate
+### Core Loop Cycle 
+Commands for creating bite-sized features using the `Plan → Implement → Validate` development cycle.
+
 | Command | Description |
 |---------|-------------|
 | `/plan:prime` | Load project context and codebase understanding |
@@ -21,12 +29,16 @@
 | `/validate:execution-report` | Generate report after implementing a feature |
 | `/validate:system-review` | Analyze implementation vs plan for process improvements |
 
-## Evolve
+### Evolve
+Improve our projects's process after each feature.
+
 | Command | Description |
 |---------|-------------|
 | `/evolve:agent-workflow` | Evolve our project's agent workflow |
 
-## Release
+### Release
+Fix, release, and deploy the code.
+
 | Command | Description |
 |---------|-------------|
 | `/commit` | Create atomic commit with appropriate tag (feat, fix, docs, etc.) |
