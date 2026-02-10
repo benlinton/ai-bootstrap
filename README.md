@@ -3,7 +3,7 @@ Copy `ai-bootstrap/` into to any project for a streamlined AI-based workflow.  H
 
 
 ## Agent commands
-See the [AGENT-COMMANDS.md](AGENT-COMMANDS.md) cheatsheet.
+See the [AGENTS.md](AGENTS.md) cheatsheet for available agent commands.
 
 
 ## Key concepts

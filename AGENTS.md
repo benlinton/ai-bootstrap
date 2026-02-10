@@ -1,4 +1,4 @@
-# Agent Commands
+# Agents
 
 ## Claude Code Commands
 
